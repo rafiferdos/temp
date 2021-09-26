@@ -1,0 +1,76 @@
+.allfaqs {
+  background-color: #ffffcc;
+  min-height: 100vh;
+  padding-top: 200px;
+}
+
+.super-card1,
+.super-card2 {
+  min-width: 200px;
+  max-width: 400px;
+  min-height: 180px;
+  max-height: 600px;
+  border-radius: 20px;
+  padding: 2rem;
+  position: relative;
+}
+
+.custom-bg-1 {
+  color: white;
+  background: rgb(9, 9, 121);
+  background: -moz-linear-gradient(
+    28deg,
+    rgba(9, 9, 121, 1) 5%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    28deg,
+    rgba(9, 9, 121, 1) 5%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: linear-gradient(
+    28deg,
+    rgba(9, 9, 121, 1) 5%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#090979",endColorstr="#00d4ff",GradientType=1);
+}
+
+.custom-bg-2 {
+  color: white;
+  background: rgb(255, 0, 78);
+  background: -moz-linear-gradient(
+    28deg,
+    rgba(255, 0, 78, 1) 5%,
+    rgba(184, 0, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    28deg,
+    rgba(255, 0, 78, 1) 5%,
+    rgba(184, 0, 255, 1) 100%
+  );
+  background: linear-gradient(
+    28deg,
+    rgba(255, 0, 78, 1) 5%,
+    rgba(184, 0, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff004e",endColorstr="#b800ff",GradientType=1);
+}
+
+.plus {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.supercard-plus {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.red-text {
+  color: yellow;
+}
